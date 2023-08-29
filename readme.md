@@ -1,6 +1,6 @@
 # PDF AI assistent 
 
-The MultiPDF Chat App is a Python program enabling communication with multiple PDFs through natural language. It responds to questions about the PDFs using a language model, offering accurate answers relevant to the document content. The app exclusively addresses queries related to the loaded PDFs.
+It is a Python program enabling communication with multiple PDFs through natural language. It responds to questions about the PDFs using a language model, offering accurate answers relevant to the document content. The app exclusively addresses queries related to the loaded PDFs.
 
 ## How It Works
 ------------
@@ -18,7 +18,3 @@ The application follows these steps to provide responses to your questions:
 4. Similarity Matching: When you ask a question, the app compares it with the text chunks and identifies the most semantically similar ones.
 
 5. Response Generation: The selected chunks are passed to the language model, which generates a response based on the relevant content of the PDFs.
-
-## License
--------
-The MultiPDF Chat App is released under the [MIT License](https://opensource.org/licenses/MIT).
